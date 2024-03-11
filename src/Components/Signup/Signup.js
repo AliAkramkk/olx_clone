@@ -84,7 +84,7 @@ export default function Signup() {
             className="input"
             type="password"
             id="lname"
-            value={pas}
+            value={pass}
             onChange={(e) => setPassword(e.target.value)}
             name="password"
             defaultValue="Doe"
